@@ -3,9 +3,9 @@ import LoginPage from './pages/Login-page'
 
 function App() {
   return (
-    <div className='pt-10'>
+      <div>
         <LoginPage />
-       </div>
+      </div>
   )
 }
 
