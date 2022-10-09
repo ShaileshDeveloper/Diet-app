@@ -1,10 +1,13 @@
 import React from 'react'
-
+import LoginForm from './components/login-form'
 function LoginPage() {
   return (
     <>
-    <div className='font-medium'>
-        LoginPage Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, a ipsam ratione sapiente quas corporis itaque ab architecto! Fuga incidunt autem nostrum vel minus ratione aliquam a natus impedit voluptatem.
+    <div className='flex h-screen'>
+            <div className='basis-1/2 border-r-4 border-black flex items-center justify-center w-full '>
+                    <LoginForm />
+            </div>
+            <div className='basis-1/2'>Image section</div>
     </div>
     </>
   )
