@@ -1,10 +1,10 @@
 import React from 'react'
+import LoginPage from './pages/Login-page'
 
-let a = "shailesh pandey"
 function App() {
   return (
     <div className='pt-10'>
-      {a.toUpperCase()}
+        <LoginPage />
        </div>
   )
 }
